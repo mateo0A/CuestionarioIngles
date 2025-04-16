@@ -1,0 +1,24 @@
+.iniciosesion{
+    background: rgb(255, 247, 247);
+    margin: auto;
+    margin-top:150px ;
+    text-align: center;
+    padding: 50px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px;
+}
+
+
+body{
+    background: #DDD;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: auto;
+    
+}
+label{
+    margin-left: auto;
+}

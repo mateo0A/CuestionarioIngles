@@ -55,16 +55,20 @@ function verificarRespuestas() {
         q50: "b"
     };
 
-    // Verificar cada pregunta
-    for (let pregunta in respuestasCorrectas) {
-        let opciones = document.getElementsByName(pregunta); // Obtener inputs por name
-        for (let opcion of opciones) {
-            if (opcion.checked && opcion.value === respuestasCorrectas[pregunta]) {
-                puntos++; // Incrementar puntos si la respuesta es correcta
-                break;
-            }
+    const inputs = document.querySelectorAll('input[type="radio"][value="a"], input[type="radio"][value="b"]');
+
+    // Comparar las respuestas seleccionadas con las correctas
+    inputs.forEach(input => {
+        if (input.checked && input.value === respuestasCorrectas[input.name]) {
+            puntos++;
         }
-    }
+        console.log(respuestasCorrectas["q1"]);
+        
+    });
+
+    
+    // Mostrar el puntaje final
+    alert("Tu puntuación es: " + puntos + " de 50");
 
     if(puntos<35){
         alert("Buen intento")
@@ -73,5 +77,10 @@ function verificarRespuestas() {
     }else if(puntos>=40 && puntos<50){
         alert("Excelente, sigue practicando y mejorando")
     }
+    
+    
 }
+
+
+
 

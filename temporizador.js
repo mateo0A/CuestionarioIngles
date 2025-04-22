@@ -1,4 +1,4 @@
-var Tiempo = 1200; 
+var Tiempo = 10; 
 var indicarTiempo=document.querySelector(".temporizador");
 
 
@@ -17,7 +17,8 @@ setInterval(() => {
 
     if (Tiempo < 0) {
         clearInterval();
-        
+        verificarRespuestas();
+        Tiempo = 1200; 
 
     }
 

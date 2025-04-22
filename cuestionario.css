@@ -49,3 +49,10 @@ img{
     color: #1c1c1c;
     width: 80px;
 }
+.verificar{
+    padding:10px 50px ;
+    background: #1d7ce9;
+    color: wheat;
+    border: none;
+    border-radius: 10px;
+}

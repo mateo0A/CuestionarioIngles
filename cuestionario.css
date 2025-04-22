@@ -42,3 +42,10 @@ img{
     padding: 50px;
     background: #0b1c6462;
 }
+
+.temporizador{
+    background: #fff;
+    padding: 10px 20px ;
+    color: #1c1c1c;
+    width: 80px;
+}

@@ -13,7 +13,7 @@ function verificarRespuestas() {
         q8: "a",
         q9: "b",
         q10: "b",
-        q11: "a",
+        q11: "a", 
         q12: "b",
         q13: "a",
         q14: "a",
@@ -77,8 +77,7 @@ function verificarRespuestas() {
     }else if(puntos>=40 && puntos<50){
         alert("Excelente, sigue practicando y mejorando")
     }
-    
-    
+    Tiempo=1200
 }
 
 

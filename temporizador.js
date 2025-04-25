@@ -1,4 +1,4 @@
-var Tiempo = 10; 
+var Tiempo = 1200; 
 var indicarTiempo=document.querySelector(".temporizador");
 
 
